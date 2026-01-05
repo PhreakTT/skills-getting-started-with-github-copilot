@@ -39,44 +39,43 @@ activities = {
         "max_participants": 30,
         "participants": ["john@mergington.edu", "olivia@mergington.edu"]
         },
-        "Basketball Team": {
+    "Basketball Team": {
             "description": "Join the basketball team and compete in local tournaments",
             "schedule": "Mondays and Wednesdays, 4:00 PM - 6:00 PM",
             "max_participants": 15,
             "participants": []
         },
-        "Soccer Club": {
+    "Soccer Club": {
             "description": "Practice soccer skills and participate in matches",
             "schedule": "Tuesdays and Thursdays, 5:00 PM - 7:00 PM",
             "max_participants": 20,
             "participants": []
         },
-        "Art Club": {
+    "Art Club": {
             "description": "Explore various art techniques and create projects",
             "schedule": "Fridays, 3:00 PM - 5:00 PM",
             "max_participants": 15,
             "participants": []
         },
-        "Drama Society": {
+    "Drama Society": {
             "description": "Participate in theater productions and improve acting skills",
             "schedule": "Thursdays, 4:00 PM - 6:00 PM",
             "max_participants": 20,
             "participants": []
         },
-        "Debate Club": {
+    "Debate Club": {
             "description": "Engage in debates and improve public speaking skills",
             "schedule": "Wednesdays, 3:30 PM - 5:00 PM",
             "max_participants": 12,
             "participants": []
         },
-        "Mathletes": {
+    "Mathletes": {
             "description": "Compete in math competitions and enhance problem-solving skills",
             "schedule": "Tuesdays, 4:00 PM - 5:30 PM",
             "max_participants": 10,
             "participants": []
         }
     }
-}
 
 
 @app.get("/")
